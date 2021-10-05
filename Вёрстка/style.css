@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');   
+
+body {
+    background-color: black;
+    color: white;   
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+}
+.main {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: "Montserrat";
+    font-size: 170px;
+    color: white;
+}
+.first {
+    display: grid;
+    grid-template-rows: 800px 300px 800px;
+    margin: 0;
+    padding:  0;
+}
+.warn {
+    position: relative;
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: 200px 100px;
+    margin: 0;
+    padding:  0;
+}
+.color1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.color2 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.color3 {
+    grid-column-start: 10;
+    grid-column-end:11;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.header {   
+    position: relative;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    grid-row-start:2;
+    grid-row-end: 3;
+    grid-template-columns: repeat(11, 1fr);
+}
+.color4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+    position: relative;
+    bottom: 250px;
+}
+.color5 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+}
+.color6 {
+    grid-column-start: 10;
+    grid-column-end:11;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+    position: relative;
+    bottom: 250px;
+}
+.img1 {
+    position: relative;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.img1 img{
+    width: 1440px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    position: absolute;
+}   
+.img1 p{
+    font-size: 72px;
+    font-weight: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    position: relative;
+    top: 450px;
+    left: 500px;
+}
+
+.description{
+    position: relative;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    top: 100px;
+}
+
+.description p{
+    font-size: 48px;
+    font-weight: 1;
+    margin: 159px 0px 0px 89px; 
+    position: absolute;
+    grid-column-start: 0;
+    grid-column-end: 2;
+}
+.description img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    left: 700px;
+    top: -150px;
+}
+.popa{
+    position: relative;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    top: 20px;
+}
+
+.popa p{
+    font-size: 64px;
+    font-weight: 1;
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    top: 266px;
+    left: -20px;
+}
+.popa img{
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 652px;
+    height: 876px;
+}
+.noch{
+    position: relative;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    grid-template-columns: 750px 300px;
+}
+.noch p{
+    font-size: 48px;
+    font-weight: 1;
+    position: absolute;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.noch img{
+    float: left;
+    width: 750px;
+    height: 750px;
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.parents{
+    position: relative;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    grid-template-columns: 600px 500px;
+}
+
+.parents p{
+    font-size: 48px;
+    font-weight: 1;
+    position: absolute;
+    grid-column-start: 2;
+    left: 100px;
+}
+.parents img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.home_abobus{
+    position: relative;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    grid-template-columns: 900px 100px;
+    grid-template-rows: 400px 200px;
+}
+
+.home_abobus p{
+    position: relative;
+    font-size: 48px;
+    font-weight: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    top: -70px;
+    left: 600px;
+}
+.home_abobus img{
+    width: 873px;
+    height: 778px;
+    position: absolute;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
